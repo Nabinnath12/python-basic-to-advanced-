@@ -12,4 +12,9 @@ elif light == "yellow":
     print("ready for the walk position :") 
 
 else:
-    print("invalid your input light color::")        
+    print("invalid your input light color::")   
+
+
+
+
+           
