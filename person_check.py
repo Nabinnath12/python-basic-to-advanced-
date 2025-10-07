@@ -12,10 +12,10 @@ elif(20 >= person_age < 59 ) :
 
     print("this age range prople are the adult ::::")
 
-elif(59 >=  person_age < 115) :
+elif(59 >=  person_age >115) :
 
     print("this age person are   the senior age:::  ")
 
 else:
     
-    print("out of the range of the age ::")           
+    print("out of the range of the age ❌ ::")           
