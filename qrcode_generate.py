@@ -1,4 +1,5 @@
 import qrcode 
+
 print("personal qr code generator")
 name = input("please enter your name:  ")
 email = input("please enter your email:  ")
@@ -24,7 +25,9 @@ data = f"""
 hubby            = {hubby}
 """
 qr = qrcode.make(data)
+
 file_name = f"{name.replace(' '  , '_')}_.png"
 qr.save(file_name)
+
 print("qrcode generate successfully: ")
 

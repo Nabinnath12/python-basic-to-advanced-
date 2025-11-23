@@ -1,3 +1,4 @@
+
 number1 = float (input("please enter the first number :::"))
 number2 = float (input("please enter the second number :::"))
 
@@ -10,7 +11,7 @@ elif (number2>number1):
         
         
 else:
-            print(f"both number is equal:: {number1}")
+            print(f"both number is equal:: {number1}") 
 
         
 
