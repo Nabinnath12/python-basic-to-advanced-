@@ -1,7 +1,3 @@
-import  re
-form date
-
-
 full_name =  (input ("please enter your name :  "))
 
 email =  input("Please enter your email: ")

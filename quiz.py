@@ -6,10 +6,10 @@ print("(a). Hyper Text Make Language")
 print("(b).Hyper Text Markup Language")
 print("(C).Home Tool Markup Language")
 print("(d).Hyperlinks and Text Management Language")
-answer = input("your choose the your answer(A/B/C/D)").strip().upper()
+answer = input("your choose the your answer(A/B/C/D)").strip().lower()
 
 if answer == "b":
-   print("your corret answer is   ☑️ ")
+   print("your  answer is   correct ")
    score +=1
 
 else:
@@ -25,13 +25,13 @@ print("(d).<hrf>")
 
 answer = input ("your choose answer is (A/B/C/D)").strip().lower()
 
-if answer == "B":
+if answer == "b":
     print("☑️your answer is correct☑️")
     score += 1
 else:
     print("❌your  answer is wrong  the correct answer is ☑️ B")
 
-print("(3).Which tag is used for the largest heading?/n")   
+print("(3).Which tag is used for the largest heading?")   
 print("(a).<h6)") 
 print("(b).<h5>") 
 print("(c).<h1>") 
@@ -58,7 +58,7 @@ if   answer =="c":
 else: 
     print("  ❌ your answer is wrong the correct answer is (c).")   
 
-print(f"your final score is :{score}/4  n")
+print(f"your final score is :{score}/4  ")
 if score == 4 : 
     print("excellent:🎉")
 elif  score == 3:
